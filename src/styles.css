@@ -1,11 +1,10 @@
 :root {
   --primary-color: #2aa3fe;
   --secondary-color: #4af5e1;
-  --accent-color: #3fffd589;
+  --accent-color: #6bfbf050;
   --heading-font: "Oswald", sans-serif;
   --default-font: "Pontano Sans", sans-serif;
 }
-
 body {
   font-family: var(--default-font);
 }
@@ -63,12 +62,33 @@ h6 {
 
 .featured-projects h5 {
   font-size: 25px;
-  color: white;
 }
 
-.img-border {
+.project-background {
   border-radius: 5px;
   background-color: var(--accent-color);
   padding: 20px 20px;
   margin: 10px 10px;
+}
+@media (max-width: 900px) {
+  .hero {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .hero h1 {
+    font-size: 50px;
+    line-height: normal;
+    padding: 20px 20px;
+  }
+  .hero h2 {
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  .featured-projects {
+    justify-content: center;
+  }
+  .featured-projects h5 {
+    font-size: 18px;
+  }
 }

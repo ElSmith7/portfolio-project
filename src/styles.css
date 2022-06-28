@@ -2,7 +2,7 @@
   --primary-color: #2aa3fe;
   --secondary-color: #4af5e1;
   --accent-color: #6bfbef80;
-  --heading-font: "Barlow", sans-serif;
+  --heading-font: "Oswald", sans-serif;
   --default-font: "Pontano Sans", sans-serif;
 }
 
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: white;
+  color: black;
   font-family: var(--heading-font);
 }
 .container {
@@ -25,19 +25,42 @@ h6 {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  margin: 140px 80px;
+  margin: 100px 20px 30px 20px;
   padding-top: 95px;
-  padding-bottom: 95px;
+  padding-bottom: 100px;
   border-radius: 12px;
+  color: white;
 }
 
 .hero h1 {
-  font-weight: 700;
-  font-size: 80px;
+  font-weight: 600;
+  font-size: 90px;
   line-height: 100px;
+  color: white;
 }
 .hero h2 {
-  font-weight: 600;
-  font-size: 38px;
+  font-weight: 500;
+  font-size: 34px;
   line-height: 70px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.hero a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-color);
+  background-color: white;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.featured-projects {
+  margin: 20px 5px;
+}
+.img-border {
+  border: 20px solid var(--accent-color);
+  border-radius: 10px;
 }

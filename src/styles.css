@@ -1,7 +1,7 @@
 :root {
   --primary-color: #2aa3fe;
   --secondary-color: #4af5e1;
-  --accent-color: #6bfbef80;
+  --accent-color: #3fffd589;
   --heading-font: "Oswald", sans-serif;
   --default-font: "Pontano Sans", sans-serif;
 }
@@ -60,7 +60,15 @@ h6 {
 .featured-projects {
   margin: 20px 5px;
 }
+
+.featured-projects h5 {
+  font-size: 25px;
+  color: white;
+}
+
 .img-border {
-  border: 20px solid var(--accent-color);
-  border-radius: 10px;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  padding: 20px 20px;
+  margin: 10px 10px;
 }

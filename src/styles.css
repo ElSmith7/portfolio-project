@@ -1,1 +1,43 @@
+:root {
+  --primary-color: #2aa3fe;
+  --secondary-color: #4af5e1;
+  --accent-color: #6bfbef80;
+  --heading-font: "Barlow", sans-serif;
+  --default-font: "Pontano Sans", sans-serif;
+}
 
+body {
+  font-family: var(--default-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: var(--heading-font);
+}
+.container {
+  max-width: 100%;
+}
+.hero {
+  background-color: var(--primary-color);
+  text-align: center;
+  margin: 140px 80px;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100px;
+}
+.hero h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 70px;
+}

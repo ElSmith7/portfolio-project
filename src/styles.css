@@ -44,17 +44,6 @@ h6 {
   margin-bottom: 50px;
 }
 
-.hero a {
-  text-decoration: none;
-  font-size: 20px;
-  color: var(--primary-color);
-  background-color: white;
-  font-weight: 500;
-  padding: 10px 30px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
 .featured-projects-heading {
   font-size: 40px;
   margin-top: 60px;
@@ -78,6 +67,27 @@ h6 {
   padding: 20px 0 0 0;
   margin: 10px 10px;
 }
+.secondary-button {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-color);
+  background-color: white;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.primary-button {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding-top: 20px;

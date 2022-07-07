@@ -82,6 +82,7 @@ h6 {
 
 .about-me h2 {
   color: var(--primary-color);
+  font-size: 24px;
 }
 
 .about-me p {
@@ -116,7 +117,8 @@ h6 {
 }
 
 @media (max-width: 900px) {
-  .hero {
+  .hero,
+  .about-me {
     padding-top: 20px;
     padding-bottom: 30px;
     margin-left: 20px;
@@ -137,5 +139,17 @@ h6 {
   }
   .featured-projects h5 {
     font-size: 18px;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+  .about-me h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .about-me img {
+    margin-top: 30px;
   }
 }

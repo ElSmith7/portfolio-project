@@ -64,9 +64,8 @@ h6 {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  margin: 100px 50px 30px 50px;
-  padding-top: 95px;
-  padding-bottom: 100px;
+  margin-bottom: 30px;
+  padding: 95px 30px 100px 30px;
   border-radius: 12px;
   color: white;
 }
@@ -88,11 +87,7 @@ h6 {
 .featured-projects-heading {
   font-size: 40px;
   margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-.featured-projects {
-  margin: 20px 38px;
+  margin-bottom: 60px;
 }
 
 .featured-projects h5 {
@@ -124,8 +119,6 @@ h6 {
   .hero {
     padding-top: 20px;
     padding-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
   .hero h1 {
     font-size: 50px;

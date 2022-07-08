@@ -56,7 +56,10 @@ h6 {
 }
 .content li {
   list-style: none;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
+}
+.content ul {
+  padding-left: 0;
 }
 .hero {
   background-color: var(--primary-color);

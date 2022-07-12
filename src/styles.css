@@ -180,6 +180,11 @@ footer .work-inquiry p {
     font-size: 15px;
     margin-left: 10px;
   }
+
+  footer .work-inquiry {
+    padding: 30px;
+    text-align: center;
+  }
   .hero {
     padding-top: 20px;
     padding-bottom: 30px;

@@ -18,6 +18,10 @@ h6 {
   font-family: var(--heading-font);
 }
 
+i {
+  color: var(--secondary-color);
+  font-size: 40px;
+}
 .content-container {
   margin: 95px auto;
   padding: 0px 50px;
@@ -43,6 +47,12 @@ h6 {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
 .content h1 {
   font-weight: 600;
   font-size: 70px;
@@ -84,10 +94,27 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+.link:hover,
 nav a:hover,
-nav li.active {
+nav li.active a {
   color: var(--primary-color);
 }
+
+footer .work-inquiry {
+  background-color: var(--primary-color);
+  padding: 20px 150px 20px 150px;
+  border-radius: 12px;
+}
+footer h3 {
+  color: white;
+  font-size: 40px;
+}
+footer .work-inquiry p {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -143,6 +170,16 @@ nav li.active {
 }
 
 @media (max-width: 900px) {
+  nav img {
+    margin-left: 10px;
+  }
+  nav ul {
+    margin-right: 20px;
+  }
+  nav a {
+    font-size: 15px;
+    margin-left: 10px;
+  }
   .hero {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -170,15 +207,5 @@ nav li.active {
   .content h1 {
     font-size: 50px;
     line-height: 60px;
-  }
-  nav img {
-    margin-left: 10px;
-  }
-  nav ul {
-    margin-right: 20px;
-  }
-  nav a {
-    font-size: 15px;
-    margin-left: 10px;
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,30 +32,32 @@
     <title>Homepage | Eleanor Morton-Smith</title>
   </head>
   <body>
-    <nav class="content d-flex justify-content-between fixed-top">
-      <a href="/"><img src="/images/logo.png" alt="logo"/></a>
-      <ul>
-        <li class="active">
-          <a href="/">Home</a>
-        </li>
-        <li class="active">
-          <a href="/about.html">About</a>
-        </li>
-        <li class="active">
-          <a href="/work.html">Work</a>
-        </li>
-        <li class="active">
-          <a href="/contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="content d-flex justify-content-between fixed-top">
+        <a href="/"><img src="/images/logo.png" alt="logo" /></a>
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
       <div class="hero">
         <h1>Eleanor Morton-Smith</h1>
         <h2>Front-end developer, based in the UK</h2>
         <a class="secondary-button" href="#">Contact Me</a>
       </div>
-      <h2 class="text-center featured-projects-heading">Featured Projects</h3>
+      <h2 class="text-center featured-projects-heading">Featured Projects</h2>
       <div class="row featured-projects text-center">
         <div class="col-md justify-content-around project-background">
           <h5>Embroidery Project</h5>
@@ -82,6 +84,35 @@
           />
         </div>
       </div>
+      <footer class="mt-5">
+        <div class="work-inquiry d-flex justify-content-between">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p>let's work together!</p>
+          </div>
+          <div class="mt-4">
+            <a class="secondary-button" href="/contact.html">Contact Me</a>
+          </div>
+        </div>
+        <div class="mt-3 text-center">
+          <a
+            class="link mt-3 text-center"
+            href="mailto:el.mortonsmith@gmail.com"
+            >el.mortonsmith@gmail.com</a
+          >
+        </div>
+        <p class="text-center mt-2">
+          <a
+            class="mx-2"
+            href="https://www.linkedin.com/in/eleanor-anwen-28038a174/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <a class="mx-2" href="https://github.com/ElSmith7"
+            ><i class="fa-brands fa-github-square"></i
+          ></a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

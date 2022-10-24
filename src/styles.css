@@ -18,7 +18,15 @@ h6 {
   font-family: var(--heading-font);
 }
 
-i {
+nav i {
+  color: white;
+  max-height: 45px;
+  margin: 5px 0 5px 70px;
+  font-size: 30px;
+}
+
+footer i,
+h4 i {
   color: var(--secondary-color);
   font-size: 40px;
 }
@@ -75,10 +83,7 @@ i {
 nav {
   background-color: var(--secondary-color);
 }
-nav img {
-  max-height: 45px;
-  margin: 5px 0 5px 70px;
-}
+
 nav ul {
   margin: auto 100px auto 0;
 }

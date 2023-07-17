@@ -1,25 +1,28 @@
 :root {
-  --primary-color: #2aa3fe;
-  --secondary-color: #4af5e1;
+  --primary-color: #0a4b30;
+  --secondary-color: #afcfc1;
+  --secondary-dark-color: #2e221e;
+  --accent-color: #db6027;
+  --neutral-color: #fffbf3;
   --heading-font: "Oswald", sans-serif;
   --default-font: "Pontano Sans", sans-serif;
 }
 body {
   font-family: var(--default-font);
+  background-color: var(--neutral-color);
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: var(--secondary-dark-color);
   font-family: var(--heading-font);
 }
 
 nav i {
-  color: white;
+  color: var(--neutral-color);
   max-height: 45px;
   margin: 5px 0 5px 70px;
   font-size: 30px;
@@ -27,7 +30,7 @@ nav i {
 
 footer i,
 h4 i {
-  color: var(--secondary-color);
+  color: var(--accent-color);
   font-size: 40px;
 }
 .content-container {
@@ -58,7 +61,7 @@ h4 i {
 .link {
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: var(--secondary-color);
   transition: all 100ms ease-in-out;
 }
 .content h1 {
@@ -81,7 +84,9 @@ h4 i {
 }
 
 nav {
-  background-color: var(--secondary-color);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: var(--primary-color);
 }
 
 nav ul {
@@ -92,17 +97,20 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: white;
-  font-weight: 600;
+  color: var(--neutral-color);
+  font-weight: 400;
   font-size: 22px;
   margin-left: 30px;
   transition: all 100ms ease-in-out;
 }
 
-.link:hover,
+.link:hover {
+  color: var(--secondary-dark-color);
+}
 nav a:hover,
 nav li.active a {
-  color: var(--primary-color);
+  color: var(--neutral-color);
+  font-weight: bolder;
 }
 
 footer .work-inquiry {
@@ -133,13 +141,13 @@ footer .work-inquiry p {
   font-weight: 600;
   font-size: 90px;
   line-height: 100px;
-  color: white;
+  color: var(--neutral-color);
 }
 .hero h2 {
   font-weight: 500;
   font-size: 34px;
   line-height: 70px;
-  color: white;
+  color: var(--neutral-color);
   margin-bottom: 50px;
 }
 
@@ -151,16 +159,17 @@ footer .work-inquiry p {
 
 .featured-projects h5 {
   font-size: 28px;
-  color: white;
+  color: var(--neutral-color);
   margin-bottom: 12px;
   font-family: var(--default-font);
   font-weight: 600;
 }
 
 .project-background {
-  background-color: var(--primary-color);
-  padding: 20px 0 0 0;
+  background-color: var(--accent-color);
+  padding: 20px 5px 5px 5px;
   margin: 10px 10px;
+  border-radius: 4px;
 }
 
 .about-me p {

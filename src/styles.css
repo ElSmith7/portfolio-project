@@ -1,8 +1,8 @@
 :root {
   --primary-color: #0a4b30;
-  --secondary-color: #afcfc1;
-  --secondary-dark-color: #2e221e;
-  --accent-color: #db6027;
+  --secondary-color: #9ac4a3;
+  --secondary-dark-color: #4b413d;
+  --accent-color: #f44d00;
   --neutral-color: #fffbf3;
   --heading-font: "Oswald", sans-serif;
   --default-font: "Pontano Sans", sans-serif;
@@ -68,11 +68,11 @@ h4 i {
   font-weight: 600;
   font-size: 70px;
   line-height: 80px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .content h2 {
-  color: var(--primary-color);
+  color: var(--secondary-dark-color);
   font-size: 24px;
 }
 .content li {
@@ -82,7 +82,9 @@ h4 i {
 .content ul {
   padding-left: 0;
 }
-
+.content p {
+  color: var(--secondary-dark-color);
+}
 nav {
   padding-top: 2px;
   padding-bottom: 2px;

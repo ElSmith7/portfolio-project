@@ -4,7 +4,7 @@
   --secondary-dark-color: #4b413d;
   --accent-color: #d05d3d;
   --neutral-color: #fffdf3;
-  --heading-font: "Quicksand", sans-serif;
+  --heading-font: "Playfair Display", serif;
   --default-font: "Lora", serif;
 }
 body {
@@ -65,7 +65,7 @@ h4 i {
   transition: all 100ms ease-in-out;
 }
 .content h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 70px;
   line-height: 80px;
   color: var(--secondary-color);
@@ -166,9 +166,10 @@ footer .work-inquiry p {
 }
 
 .featured-projects-heading {
-  font-size: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .featured-projects h5 {
@@ -176,7 +177,6 @@ footer .work-inquiry p {
   color: var(--neutral-color);
   margin-bottom: 12px;
   font-family: var(--default-font);
-  font-weight: 600;
 }
 
 .project-background {

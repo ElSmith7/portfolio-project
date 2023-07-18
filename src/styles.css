@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #0a4b30;
-  --secondary-color: #9ac4a3;
+  --primary-color: #0d6342;
+  --secondary-color: #b6e4c1;
   --secondary-dark-color: #4b413d;
-  --accent-color: #f44d00;
-  --neutral-color: #fffbf3;
+  --accent-color: #d05d3d;
+  --neutral-color: #fffaf1;
   --heading-font: "Oswald", sans-serif;
   --default-font: "Pontano Sans", sans-serif;
 }

@@ -221,16 +221,16 @@ footer .work-inquiry p {
     padding: 50px 0;
     max-width: 100%;
   }
+  .hero-text {
+    top: 35%;
+  }
   .hero h1 {
-    font-size: 50px;
-    line-height: normal;
-    padding: 20px 20px;
+    font-size: 35px;
   }
   .hero h2 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: normal;
   }
-
   .featured-projects {
     justify-content: center;
   }

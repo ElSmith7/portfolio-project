@@ -91,8 +91,8 @@ h4 i {
   color: var(--secondary-dark-color);
 }
 nav {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   background-color: var(--primary-color);
 }
 
@@ -116,6 +116,7 @@ nav li.active a {
   color: var(--neutral-color);
   font-weight: bolder;
 }
+
 nav .logo {
   max-width: 60px;
   height: auto;
@@ -144,7 +145,7 @@ footer .work-inquiry p {
   background-color: var(--primary-color);
   max-width: 100%;
   margin-bottom: 30px;
-  padding: 50px 30px 100px 30px;
+  padding: 60px 30px 100px 30px;
   text-align: center;
   color: white;
 }

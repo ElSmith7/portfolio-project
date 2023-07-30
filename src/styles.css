@@ -219,7 +219,7 @@ footer .work-inquiry p {
 }
 
 @media (max-width: 992px) {
-  nav img {
+  nav .logo {
     margin-left: 10px;
   }
   nav ul {

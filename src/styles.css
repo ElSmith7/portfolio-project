@@ -197,12 +197,23 @@ footer .work-inquiry p {
   font-weight: 500;
 }
 
+.bird-mic-image {
+  max-width: 120px;
+  height: auto;
+  margin-left: 20px;
+}
 .head-shot {
   max-width: 100%;
-  border-radius: 4px;
+  padding-left: 30px;
 }
 
-@media (max-width: 900px) {
+.needle-image {
+  max-width: 250px;
+  height: auto;
+  margin-left: 20px;
+}
+
+@media (max-width: 992px) {
   nav img {
     margin-left: 10px;
   }
@@ -245,6 +256,10 @@ footer .work-inquiry p {
 
   .head-shot {
     margin-top: 30px;
+  }
+
+  .needle-image {
+    display: none;
   }
 
   .content {

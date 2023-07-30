@@ -91,8 +91,8 @@ h4 i {
   color: var(--secondary-dark-color);
 }
 nav {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: var(--primary-color);
 }
 
@@ -111,13 +111,15 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-.link:hover {
-  color: var(--secondary-dark-color);
-}
 nav a:hover,
 nav li.active a {
   color: var(--neutral-color);
   font-weight: bolder;
+}
+nav .logo {
+  max-width: 60px;
+  height: auto;
+  margin-left: 80px;
 }
 
 footer .work-inquiry {
@@ -134,7 +136,9 @@ footer .work-inquiry p {
   font-weight: 500;
   font-size: 20px;
 }
-
+.link:hover {
+  color: var(--secondary-dark-color);
+}
 .hero {
   position: relative;
   background-color: var(--primary-color);

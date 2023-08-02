@@ -284,4 +284,13 @@ footer .work-inquiry p {
     font-size: 20px;
     line-height: 0;
   }
+  nav .logo {
+    display: none;
+  }
+  nav ul {
+    margin: 10px auto;
+  }
+  nav a {
+    font-size: 20px;
+  }
 }
